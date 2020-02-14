@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Vector">
+      <UniqueIdentifier>{5cd20535-e17d-49b3-a6dd-4328496a398f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mainCharacter">
+      <UniqueIdentifier>{a4b40938-5abd-4c9e-a321-d4bcf6dbd19a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{e28183ff-4e99-461c-8f4a-e305ff9674ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animated">
+      <UniqueIdentifier>{07a9b82d-067d-4aed-b213-54cf47113088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Screens">
+      <UniqueIdentifier>{e0f6146c-cb39-4cc6-b7fb-e0f1f52d6fa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sound">
+      <UniqueIdentifier>{0992da02-d0b0-43f7-ab82-92d241fe1e5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vector\Sprites">
+      <UniqueIdentifier>{4d1972da-dfb1-4f62-a0f0-4f5177fdf310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Boss">
+      <UniqueIdentifier>{6f78cca9-2ce3-464f-814e-6782498d652a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files\Vector\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticSprite.cpp">
+      <Filter>Source Files\Vector\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedSprite.cpp">
+      <Filter>Source Files\Animated</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Source Files\Animated</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.cpp">
+      <Filter>Source Files\Vector\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\mainCharacter</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicObject.cpp">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Coin.cpp">
+      <Filter>Source Files\Vector\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Source Files\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="crystalBomb.cpp">
+      <Filter>Source Files\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Predictor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sprite.h">
+      <Filter>Source Files\Vector\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticSprite.h">
+      <Filter>Source Files\Vector\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedSprite.h">
+      <Filter>Source Files\Animated</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Source Files\Animated</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>Source Files\Vector\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="gameStates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Source Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Source Files\mainCharacter</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>Source Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicObject.h">
+      <Filter>Source Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Source Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Coin.h">
+      <Filter>Source Files\Vector\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Source Files\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="crystalBomb.h">
+      <Filter>Source Files\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Source Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Predictor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

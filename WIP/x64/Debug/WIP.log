@@ -1,0 +1,44 @@
+﻿  AnimatedSprite.cpp
+f:\networking\source\wip\animatedsprite.cpp(21): warning C4018: '>': signed/unsigned mismatch
+  Animation.cpp
+  AudioManager.cpp
+  Ball.cpp
+  Coin.cpp
+  Menu.cpp
+  MusicObject.cpp
+  Boss.cpp
+f:\networking\source\wip\boss.cpp(102): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  crystalBomb.cpp
+  Sound.cpp
+  Game.cpp
+f:\networking\source\wip\player.h(23): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+f:\networking\source\wip\player.h(24): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+f:\networking\source\wip\game.cpp(25): warning C4305: 'argument': truncation from 'double' to 'float'
+f:\networking\source\wip\game.cpp(34): warning C4305: 'argument': truncation from 'double' to 'float'
+  Input.cpp
+  Player.cpp
+f:\networking\source\wip\player.h(23): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+f:\networking\source\wip\player.h(24): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+f:\networking\source\wip\player.cpp(80): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+f:\networking\source\wip\player.cpp(90): warning C4305: '=': truncation from 'double' to 'float'
+f:\networking\source\wip\player.cpp(102): warning C4806: '==': unsafe operation: no value of type 'bool' promoted to type 'Player::MovementState' can equal the given constant
+f:\networking\source\wip\player.cpp(366): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+f:\networking\source\wip\player.cpp(372): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  main.cpp
+f:\networking\source\wip\player.h(23): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+f:\networking\source\wip\player.h(24): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+f:\networking\source\wip\main.cpp(20): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+f:\networking\source\wip\main.cpp(41): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+f:\networking\source\wip\main.cpp(27): warning C4101: 'isServer': unreferenced local variable
+  Sprite.cpp
+  StaticSprite.cpp
+  Generating Code...
+sfml-graphics-d.lib(sfml-graphics-d-2.dll) : fatal error LNK1112: module machine type 'x86' conflicts with target machine type 'x64'
